@@ -1,0 +1,58 @@
+# Compiled binary and object files
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+
+# CMake build directory (usually created in root)
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code settings and local builds
+.vscode/
+*.code-workspace
+
+# CLion and JetBrains IDEs
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Windows thumbnails
+Thumbs.db
+
+# Logs
+*.log
+
+# Visual Studio build artifacts
+*.vcxproj*
+*.sln
+*.pdb
+*.idb
+*.ilk
+*.user
+*.aps
+*.ncb
+*.suo
+*.opendb
+
+# Glad or external-generated code that shouldn't be tracked (optional)
+external/glad/build/
+external/glfw/build/
+
+# Ignore submodule build dirs if you build in-place (not recommended)
+**/build/
+
+# Optional cache or temporary folders
+.cache/
+.temp/
+
+# Generated assets
+bin/
